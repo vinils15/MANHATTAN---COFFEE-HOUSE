@@ -1,31 +1,45 @@
-☕ Manhattan - Coffee House
-Landing page desenvolvida para a cafeteria Manhattan - Coffee House, com o objetivo de apresentar a marca, oferecer informações úteis aos clientes e promover o ambiente acolhedor da cafeteria.
+# ☕ Manhattan - Coffee House
 
-📄 Sobre o Projeto
-Este projeto foi criado como uma página web institucional, utilizando HTML e CSS, com foco em design elegante, estrutura intuitiva e navegação fluida. O site visa transmitir a experiência da cafeteria por meio de imagens, seções bem organizadas e um toque visual moderno.
+Landing page desenvolvida para a cafeteria fictícia **Manhattan - Coffee House**, com o objetivo de apresentar a identidade da marca, divulgar informações importantes e transmitir a experiência de um ambiente acolhedor e sofisticado.
 
-Principais seções:
-Apresentação inicial com nome da marca e identidade visual.
-Seção de informações destacando ambiente, atendimento e localização.
-Menu horizontal de navegação com links para:
-Informações
-Contatos
-Horários
-Rodapé personalizado com direitos autorais e estrutura visual responsiva.
+## 📌 Sobre o Projeto
 
-🚀 Tecnologias Utilizadas
-HTML5
-CSS3
-Design responsivo
-Estrutura semântica
+O projeto consiste em uma página web institucional, desenvolvida com HTML5 e CSS3, priorizando um design elegante, navegação intuitiva e organização visual.
 
-🎯 Objetivo
-Transmitir os valores da Manhattan Coffee House: qualidade, conforto e experiência, além de oferecer uma forma clara e visualmente atrativa de divulgar os serviços, localização e horários da cafeteria.
+A proposta foi criar uma experiência digital que representasse os valores da cafeteria, destacando sua identidade visual e facilitando o acesso às principais informações para os clientes.
 
-📬 Contato
-Rua Cariparé, 0 - Pavuna - Rio de Janeiro
-Telefone & WhatsApp: (21) 96874-9875
-Email: viniciuslimasantos15@outlook.com
-Projeto fictício criado para fins de portfólio e estudos.
+## ✨ Funcionalidades e Seções
 
-🛠️ Desenvolvido por Vinicius Lima
+- **Apresentação inicial:** destaque para o nome da marca e sua identidade visual.
+- **Informações:** apresentação do ambiente, atendimento e proposta da cafeteria.
+- **Navegação:** menu horizontal com acesso às principais seções da página.
+- **Contatos:** informações para comunicação com a cafeteria.
+- **Horários:** apresentação dos horários de funcionamento.
+- **Rodapé:** identificação do projeto e direitos autorais.
+
+## 🛠️ Tecnologias Utilizadas
+
+- HTML5
+- CSS3
+- Design Responsivo
+- Estruturação Semântica
+
+## 🎯 Objetivo do Projeto
+
+Desenvolver uma landing page que transmita os conceitos de qualidade, conforto e experiência associados à Manhattan Coffee House.
+
+O projeto também teve como objetivo praticar e aprimorar conhecimentos em estruturação HTML, estilização CSS, organização de conteúdo e desenvolvimento de interfaces responsivas.
+
+## 📍 Informações de Contato
+
+- **Endereço:** Rua Cariparé, 0 - Pavuna - Rio de Janeiro
+- **Telefone / WhatsApp:** (21) 96874-9875
+- **E-mail:** viniciuslimasantos15@outlook.com
+
+> ⚠️ Projeto fictício desenvolvido exclusivamente para fins de estudo e portfólio.
+
+## 👨‍💻 Desenvolvedor
+
+**Vinicius Lima**
+
+Desenvolvido com dedicação e foco no aprendizado de desenvolvimento Front-End.
