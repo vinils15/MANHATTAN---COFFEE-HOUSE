@@ -1,3 +1,5 @@
+![Uploading manhattan-coffee-house-murex.vercel.app_.png…]()
+
 # ☕ Manhattan - Coffee House
 
 Landing page desenvolvida para a cafeteria fictícia **Manhattan - Coffee House**, com o objetivo de apresentar a identidade da marca, divulgar informações importantes e transmitir a experiência de um ambiente acolhedor e sofisticado.
