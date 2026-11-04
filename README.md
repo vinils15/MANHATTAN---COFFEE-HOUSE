@@ -1,4 +1,5 @@
-<img width="1208" height="4825" alt="manhattan-coffee-house-murex vercel app_" src="https://github.com/user-attachments/assets/b4d7906e-9da4-4736-bd6d-a0dbb3985176" /># ☕ Manhattan - Coffee House
+
+# ☕ Manhattan - Coffee House
 
 Landing page desenvolvida para a cafeteria fictícia **Manhattan - Coffee House**, com o objetivo de apresentar a identidade da marca, divulgar informações importantes e transmitir a experiência de um ambiente acolhedor e sofisticado.
 
@@ -20,7 +21,7 @@ A proposta foi criar uma experiência digital que representasse os valores da ca
 
 ## 📸 Preview do projeto
 
-![Manhattan Coffee House](./preview-manhattan.png)
+<img width="1208" height="4825" alt="manhattan-coffee-house-murex vercel app_" src="https://github.com/user-attachments/assets/b4d7906e-9da4-4736-bd6d-a0dbb3985176" />
 
 ## 🛠️ Tecnologias Utilizadas
 
