@@ -1,1 +1,687 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+.cabecalho{
+    width: 100%;
+    height: 100px;
+    background-color: #604829;
+}
+
+.container-cabecalho{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+}
+
+.logo img{
+    width: 100px;
+    position: absolute;
+    left: 15%
+}
+
+.menu{
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+}
+
+.menu ul {
+    position: absolute;
+    right: 15%;
+    top: 35%;
+    display: flex;
+    margin: 0;
+    padding: 30px;
+}
+
+.menu li {
+    list-style: none;
+    position: relative;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #c4a47c;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0 30px;
+    text-shadow: 5px 5px 10px #000;
+}
+
+
+.banner-principal{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/parallax-imagem1.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+}
+
+.conteudo-banner-principal h1{
+    width: 100%;
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    font-size: 100px;
+    color: #fff;
+    font-family: 'Fraunces', serif;
+    font-weight: normal;
+    font-size: 100px;
+}
+
+
+.informacoes{
+    width: 100%;
+    max-width: 1200px;
+    font-size: 18px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container-informacoes{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.container-informacoes h2{
+    color: #c4a47c;
+    margin-bottom: 20px;
+}
+
+.container-informacoes p{
+    color: #666;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 2;
+    text-align: center;
+}
+
+.banner-cafeteria{
+    width: 100%;
+    height: 300px;
+    background-image: url('../img/parallax-imagem2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+    position: relative;
+}
+
+.texto-banner h2{
+    position: absolute;
+    width: 420px;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 24px;
+    margin: 0 auto;
+    color: #fff;
+    font-style: italic;
+    font-weight: normal;
+    background-color:#604829;
+    font-family: 'Fraunces', serif;
+}
+
+.banner-cafe{
+    width: 100%;
+    height: 300px;
+    background-image: url('../img/parallax-imagem3.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    position: relative;
+}
+
+.contatos{
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Oswald', sans-serif;
+    background-image: url('../img/parallax-imagem4.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+.container-contatos h2{
+    background-color: #604829;
+    color: #fff;
+    width: 400px;
+    letter-spacing: 5px;
+    font-size: 24px;
+    padding: 10px 20px;
+    margin: 0 auto 50px auto;
+}
+
+.mapa{
+    width: 100%;
+    max-width: 1024px;
+    height: 400px;
+    margin: 0 auto 50px;
+}
+
+.dados-contato {
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #604829;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'oswald', sans-serif;
+    text-shadow: 5px 5px 10px #000;
+}
+
+.container-horarios{
+    width: 100%;
+    margin: 0 auto;
+    height: 85vh;
+    background-image: url('../img/cafeteria.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    position: relative;
+}
+
+.container-horarios h2{
+    position: absolute;
+    width: 500px;
+    top: 20%;
+    left: 30%; 
+    right: 30%;
+    font-size: 18px;
+    margin: 0 auto;
+    color: #fff;
+    letter-spacing: 5px;
+    font-weight: normal;
+    font-family: 'Oswald', serif;
+    text-align: center;
+
+}
+
+.horarios-lista{
+    position: absolute;
+    width: 768px;
+    bottom: 20%;
+    right: 0%;
+    left: 0%;
+    font-size: 16px;
+    margin: 0 auto;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+}
+
+.horarios-lista ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.horarios-lista li {
+    position: relative;
+    height: 30px;
+}
+
+.horarios-lista span {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.horarios-lista .linha {
+    position: absolute;
+    left: 10%;
+    right: 15%;
+    top: 50%;
+    height: 2px;
+    background-color: #666;
+}
+
+.horarios-lista p {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    color: white;
+    font-size: 14px;
+}
+
+
+.rodape{
+    background-color: rgb(0, 0, 0);
+    padding: 20px 0;
+    position: relative;
+}
+
+.container-rodape p{
+    color:#fff;
+    margin: 10px auto;
+    text-align: center;
+    font-family: 'Fraunces', sans-serif;
+    letter-spacing: 2px;
+}
+
+.container-rodape span{
+    color: #c4a47c;
+    font-family: 'Fraunces', serif;
+    font-size: 18px;
+}
+
+.rodape img{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: 80px;
+    right:50px;
+}
+
+
+
+
+/* ---------- TELAS MUITO GRANDES (Full HD+ / 2K / 4K) ---------- */
+@media (min-width: 1600px) {
+ 
+    .container-cabecalho,
+    .logo,
+    .menu {
+        max-width: 1400px;
+    }
+ 
+    .conteudo-banner-principal h1 {
+        font-size: 120px;
+    }
+ 
+    .informacoes {
+        max-width: 1400px;
+    }
+ 
+    .container-informacoes {
+        max-width: 1200px;
+    }
+ 
+    .container-informacoes p {
+        font-size: 18px;
+    }
+ 
+    .mapa {
+        max-width: 1200px;
+        height: 450px;
+    }
+}
+ 
+ 
+/* ---------- NOTEBOOKS / DESKTOPS PEQUENOS (até 1200px) ---------- */
+@media (max-width: 1200px) {
+ 
+    .logo img {
+        left: 10%;
+    }
+ 
+    .menu ul {
+        right: 10%;
+    }
+ 
+    .conteudo-banner-principal h1 {
+        width: 90%;
+        font-size: 80px;
+    }
+ 
+    .container-contatos {
+        padding: 0 20px;
+    }
+}
+ 
+ 
+/* ---------- TABLETS NA HORIZONTAL (até 992px) ---------- */
+@media (max-width: 992px) {
+ 
+    .banner-principal,
+    .banner-cafeteria,
+    .banner-cafe,
+    .contatos,
+    .container-horarios {
+        background-attachment: scroll;
+    }
+ 
+    .logo img {
+        left: 8%;
+    }
+ 
+    .menu ul {
+        right: 8%;
+    }
+ 
+    .menu a {
+        font-size: 16px;
+        margin: 0 15px;
+    }
+ 
+    .conteudo-banner-principal h1 {
+        font-size: 64px;
+    }
+ 
+    .informacoes {
+        padding: 60px 0;
+    }
+ 
+    .texto-banner h2 {
+        width: 380px;
+        font-size: 22px;
+    }
+ 
+    .mapa {
+        height: 350px;
+    }
+ 
+    .mapa iframe {
+        height: 100%;
+    }
+ 
+    .container-horarios h2 {
+        width: 80%;
+        left: 10%;
+        right: 10%;
+    }
+ 
+    .horarios-lista {
+        width: 85%;
+    }
+}
+ 
+ 
+/* ---------- TABLETS NA VERTICAL (até 768px) ---------- */
+@media (max-width: 768px) {
+ 
+    .logo img {
+        width: 80px;
+        left: 5%;
+    }
+ 
+    .menu ul {
+        right: 4%;
+        padding: 35px 0;
+    }
+ 
+    .menu a {
+        font-size: 15px;
+        margin: 0 4px;
+        padding: 5px 8px;
+    }
+ 
+    .conteudo-banner-principal h1 {
+        font-size: 52px;
+    }
+ 
+    .informacoes {
+        padding: 50px 0;
+    }
+ 
+    .container-informacoes h2 {
+        font-size: 22px;
+    }
+ 
+    .container-informacoes p {
+        line-height: 1.9;
+    }
+ 
+    .banner-cafeteria,
+    .banner-cafe {
+        height: 250px;
+    }
+ 
+    .texto-banner h2 {
+        width: 80%;
+        font-size: 20px;
+    }
+ 
+    .container-contatos h2 {
+        width: 100%;
+        max-width: 400px;
+        font-size: 20px;
+        letter-spacing: 3px;
+        margin-bottom: 35px;
+    }
+ 
+    .mapa {
+        height: 320px;
+        margin-bottom: 35px;
+    }
+ 
+    .container-horarios {
+        height: auto;
+        min-height: 520px;
+    }
+ 
+    .container-horarios h2 {
+        top: 15%;
+        letter-spacing: 3px;
+    }
+ 
+    .horarios-lista {
+        width: 90%;
+        bottom: 15%;
+    }
+ 
+    .horarios-lista .linha {
+        left: 14%;
+        right: 20%;
+    }
+ 
+    .rodape img {
+        width: 50px;
+        height: 50px;
+        right: 25px;
+    }
+}
+ 
+ 
+/* ---------- CELULARES (até 576px) ---------- */
+@media (max-width: 576px) {
+ 
+    .logo img {
+        width: 65px;
+        left: 3%;
+        top: 15px;
+    }
+ 
+    .menu ul {
+        right: 2%;
+        top: 0;
+        padding: 38px 0;
+    }
+ 
+    .menu a {
+        font-size: 12px;
+        margin: 0;
+        padding: 5px 6px;
+        text-shadow: 2px 2px 4px #000;
+    }
+ 
+    .conteudo-banner-principal h1 {
+        font-size: 38px;
+        top: 40%;
+    }
+ 
+    .informacoes {
+        padding: 40px 0;
+    }
+ 
+    .container-informacoes {
+        padding: 0 15px;
+    }
+ 
+    .container-informacoes h2 {
+        font-size: 19px;
+        line-height: 1.4;
+    }
+ 
+    .container-informacoes p {
+        font-size: 15px;
+        line-height: 1.8;
+    }
+ 
+    .banner-cafeteria,
+    .banner-cafe {
+        height: 200px;
+    }
+ 
+    .texto-banner h2 {
+        width: 85%;
+        font-size: 17px;
+        padding: 8px 12px;
+    }
+ 
+    .contatos {
+        padding: 25px 0;
+    }
+ 
+    .container-contatos {
+        padding: 0 15px;
+    }
+ 
+    .container-contatos h2 {
+        font-size: 17px;
+        letter-spacing: 2px;
+        padding: 8px 10px;
+        margin-bottom: 25px;
+    }
+ 
+    .mapa {
+        height: 280px;
+        margin-bottom: 25px;
+    }
+ 
+    .dados-contato {
+        padding: 15px;
+        font-size: 14px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+    }
+ 
+    .container-horarios {
+        min-height: 480px;
+    }
+ 
+    .container-horarios h2 {
+        width: 90%;
+        left: 5%;
+        right: 5%;
+        top: 12%;
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+ 
+    .horarios-lista {
+        width: 92%;
+        bottom: 12%;
+    }
+ 
+    .horarios-lista span {
+        font-size: 13px;
+    }
+ 
+    .horarios-lista p {
+        font-size: 13px;
+    }
+ 
+    .horarios-lista .linha {
+        left: 25%;
+        right: 32%;
+    }
+ 
+    .container-rodape p {
+        font-size: 13px;
+        letter-spacing: 1px;
+        padding: 0 15px;
+    }
+ 
+    .container-rodape span {
+        font-size: 15px;
+    }
+ 
+    .rodape img {
+        width: 42px;
+        height: 42px;
+        bottom: 70px;
+        right: 15px;
+    }
+}
+ 
+ 
+/* ---------- CELULARES PEQUENOS (até 375px) ---------- */
+@media (max-width: 375px) {
+ 
+    .logo img {
+        width: 55px;
+    }
+ 
+    .menu a {
+        font-size: 11px;
+        padding: 5px 4px;
+    }
+ 
+    .conteudo-banner-principal h1 {
+        font-size: 32px;
+    }
+ 
+    .container-informacoes h2 {
+        font-size: 17px;
+    }
+ 
+    .container-informacoes p {
+        font-size: 14px;
+    }
+ 
+    .texto-banner h2 {
+        font-size: 15px;
+    }
+ 
+    .container-contatos h2 {
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+ 
+    .dados-contato {
+        font-size: 13px;
+    }
+ 
+    .container-horarios h2 {
+        font-size: 13px;
+    }
+ 
+    .horarios-lista span,
+    .horarios-lista p {
+        font-size: 12px;
+    }
+ 
+    .horarios-lista .linha {
+        left: 26%;
+        right: 34%;
+    }
+}
+ 
+ 
