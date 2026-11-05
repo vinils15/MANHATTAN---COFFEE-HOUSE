@@ -1,49 +1,59 @@
-
 # ☕ Manhattan - Coffee House
 
-Landing page desenvolvida para a cafeteria fictícia **Manhattan - Coffee House**, com o objetivo de apresentar a identidade da marca, divulgar informações importantes e transmitir a experiência de um ambiente acolhedor e sofisticado.
+Landing page desenvolvida para a cafeteria fictícia Manhattan - Coffee House, com o objetivo de apresentar a identidade da marca, divulgar informações importantes e proporcionar uma experiência digital agradável aos visitantes.
 
-## 📌 Sobre o Projeto
+**[Acessar projeto online](https://manhattan-coffee-house-one.vercel.app/)**
 
-O projeto consiste em uma página web institucional, desenvolvida com HTML5 e CSS3, priorizando um design elegante, navegação intuitiva e organização visual.
+---
 
-A proposta foi criar uma experiência digital que representasse os valores da cafeteria, destacando sua identidade visual e facilitando o acesso às principais informações para os clientes.
+## 📸 Preview do Projeto
 
-## ✨ Funcionalidades e Seções
+![Manhattan Coffee House - Preview](preview-manhattan.png)
 
-- **Apresentação inicial:** destaque para o nome da marca e sua identidade visual.
-- **Informações:** apresentação do ambiente, atendimento e proposta da cafeteria.
-- **Navegação:** menu horizontal com acesso às principais seções da página.
-- **Contatos:** informações para comunicação com a cafeteria.
-- **Horários:** apresentação dos horários de funcionamento.
-- **Rodapé:** identificação do projeto e direitos autorais.
+## 📄 Sobre o Projeto
 
+O Manhattan - Coffee House é um projeto desenvolvido com HTML5 e CSS3, simulando o site institucional de uma cafeteria.
 
-## 📸 Preview do projeto
+A proposta foi construir uma interface visualmente agradável, com navegação intuitiva, organização de conteúdo e adaptação para diferentes tamanhos de tela.
 
-<img width="1208" height="4825" alt="manhattan-coffee-house-murex vercel app_" src="https://github.com/user-attachments/assets/b4d7906e-9da4-4736-bd6d-a0dbb3985176" />
+## Funcionalidades e Seções
 
-## 🛠️ Tecnologias Utilizadas
+- Cabeçalho com logotipo e menu de navegação.
+- Banner principal de apresentação.
+- Seções informativas sobre a cafeteria e seus produtos.
+- Banners intermediários com imagens.
+- Área de contato com mapa de localização.
+- Informações sobre horários de funcionamento.
+- Rodapé com identificação do projeto.
+
+## Tecnologias Utilizadas
 
 - HTML5
 - CSS3
-- Design Responsivo
-- Estruturação Semântica
+- Google Fonts
+- Design responsivo
 
-## 🎯 Objetivo do Projeto
+## Conhecimentos Aplicados
 
-Desenvolver uma landing page que transmita os conceitos de qualidade, conforto e experiência associados à Manhattan Coffee House.
+Durante o desenvolvimento, foram praticados conceitos de:
 
-O projeto também teve como objetivo praticar e aprimorar conhecimentos em estruturação HTML, estilização CSS, organização de conteúdo e desenvolvimento de interfaces responsivas.
+- Estruturação semântica do HTML.
+- Organização de elementos e seções.
+- Estilização e posicionamento com CSS.
+- Utilização de imagens como elementos visuais.
+- Criação de layouts responsivos.
+- Organização de arquivos e pastas.
 
-## 📍 Informações de Contato
+## 💻 Como executar o projeto
 
-- **Endereço:** Rua Cariparé, 0 - Pavuna - Rio de Janeiro
-- **Telefone / WhatsApp:** (21) 96874-9875
-- **E-mail:** viniciuslimasantos15@outlook.com
-
-> ⚠️ Projeto fictício desenvolvido exclusivamente para fins de estudo e portfólio.
+1. Faça o download ou clone este repositório.
+2. Abra a pasta do projeto.
+3. Execute o arquivo `index.html` no navegador.
 
 ## 👨‍💻 Desenvolvedor
 
 **Vinicius Lima**
+
+Projeto desenvolvido para fins de estudo e composição de portfólio profissional.
+
+[GitHub](https://github.com/vinils15)
