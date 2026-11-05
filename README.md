@@ -32,7 +32,6 @@ A proposta foi construir uma interface visualmente agradável, com navegação i
 - CSS3
 - Google Fonts
 - Design responsivo
-- HTML Semântico
 
 ## Conhecimentos Aplicados
 
