@@ -47,5 +47,3 @@ O projeto também teve como objetivo praticar e aprimorar conhecimentos em estru
 ## 👨‍💻 Desenvolvedor
 
 **Vinicius Lima**
-
-Desenvolvido com dedicação e foco no aprendizado de desenvolvimento Front-End.
